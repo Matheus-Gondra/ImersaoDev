@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Imersão Dev - Aula 01
+        </title>
+
+        <link href="./style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container" id="conversor1">
+            <h1 class="page-title">
+            Conversor de moedas
+            </h1>
+            <p class="page-subtitle">
+            Descubra os valores em real R$ do dolar U$ ou euro €
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="logo da imersão dev da alura">
+            <br>
+            <input type="number" id="input-moeda" placeholder="Valor em reais R$">
+            <button id="botao-moeda">Converter</button>
+            <br>
+            <p class="text-conversor">O valor em dolares é: </p><span id="dolar-value" class="text-conversor"></span>
+            <br>
+            <p class="text-conversor">O valor em euros é: </p><span id="euro-value" class="text-conversor"></span>
+        </div>
+        
+        
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+        
+        <div class="container" id="conversor2">
+            <h1 class="page-title">Conversor de Temperatura</h1>
+            <p class="page-subtitle">Descubra os valores em Fahrenheit e Kelvin</p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="logo da imersão dev da alura">
+            <br>
+            <input type="number" id="input-temp" placeholder="temperatura em graus Celcius(°C)">
+            <button id="botao-temp">Converter</button>
+            <br>
+            <p class="text-conversor">A temperatura em graus Fahrenheit é: </p><span id="Fahrenheit-value" class="text-conversor"></span>
+            <br>
+            <p class="text-conversor">A temperatura em graus Kelvin é: </p><span id="kelvin-value" class="text-conversor"></span>
+        </div>
+        </div>
+        
+        <script src="./js/conversorMoeda.js"></script>
+        <script src="./js/conversorTemp.js"></script>
+    </body>
+
+</html>

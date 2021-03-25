@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url("https://pm1.narvii.com/6478/9b3519af44911a1975a7443d84fed5cc4d3d5724_00.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .calculadora {
+    width: 400px;
+    height:360px;
+    background-image: url("https://www.pngkit.com/png/full/584-5843757_pokemon-dialog-box-pokemon-text-box-png.png");
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  h2 {
+    position: absolute;
+    font-size:16px;
+    font-weight:bold;
+    top: 142px;
+    left: calc(50% - 72.5px);
+    width: 145px;
+    text-align:center;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
