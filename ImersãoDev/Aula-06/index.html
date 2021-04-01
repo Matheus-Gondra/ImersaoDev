@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Imersão Dev - Aula 06
+        </title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Tabela de classificação</h1>
+        <label for="novoJogador">Novo Jogador:</label>
+        <input type="text" id="novoJogador" placeholder="Digite o nome do jogador(a)">
+        <button id="adicionarJogador" onclick="adicionarJogador()">Adicionar</button>
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Vitórias</th>
+                    <th>Empates</th>
+                    <th>Derrotas</th>
+                    <th>Pontos</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+    
+            </tbody>
+        </table>
+        <script src="./js/app.js"></script>
+    </body>
+
+</html>
