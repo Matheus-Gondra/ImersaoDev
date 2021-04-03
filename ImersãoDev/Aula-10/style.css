@@ -1,0 +1,82 @@
+:root{
+    --background: #7ebced;
+    --background-insignias: #9cd2ff;
+}
+
+body{
+	background-color: var(--background);
+	font-family: 'Open Sans', sans-serif;
+}
+
+section{
+	-webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+	box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	background-color: #fff;
+	padding: 15px;
+	max-width: 500px;
+	border-radius: 5px;
+}
+
+section h1{
+	font-size: 40px;
+	text-align: center;
+    font-weight: bold;
+}
+
+header{
+	background-image: linear-gradient(#7ebced, #b8dfff);
+	background-size: cover;
+	height: 80px;
+	border-radius: 5px;
+}
+
+div {
+	padding: 15px;
+	background-color: var(--background-insignias);
+	border-radius: 5px;
+    border: 1px solid var(--background-insignias);
+    margin-top: 65px;
+}
+
+.foto{
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+	transform: translateY(-50%);
+	border: 5px solid white;
+}
+
+h2{
+    text-align: center;
+    color: #033161;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.alura{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #2c6a9b;
+    transition: 0.5s;
+}
+
+.github{
+    display: block;
+    margin: 5px auto 0;
+}
